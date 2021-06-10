@@ -9,3 +9,9 @@ jQuery('h1').click(function(){
   jQuery('img').click(function(){
     alert("This is an image")
   });
+
+  $(document).ready(function() {
+    $("p").click(function() {
+      $("img").show();
+    });
+  });
